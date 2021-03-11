@@ -44,16 +44,17 @@ class GraphicsScene(QGraphicsScene):
         print(self.itemList)
 
     def removeItemInList(self):
-        for x in self.itemList:
-            for y in x:
-
-        for x in self.selectedItems():
-            if isinstance(x, Edge):
-                x.delete()
-            self.removeItem(x)
-
-
-
+        self.loopCount = 0
+        for selectedItem in self.selectedItems():
+            if isinstance(selectedItem, Edge):
+                selectedItem.delete()
+            for listItem in self.itemList:
+                for tupleItem in listItem:
+                    if selectedItem == tupleItem:
+                        del self.itemList[self.loopCount]
+                self.loopCount += 1
+            print(self.itemList)
+            self.removeItem(selectedItem)
 
 
 
