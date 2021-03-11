@@ -2,6 +2,7 @@ from PyQt5 import QtCore, QtWidgets, QtGui
 from PyQt5.QtCore import QRect, Qt, QDataStream
 from PyQt5.QtWidgets import QWidget, QPushButton, QGraphicsView, QLabel, QGraphicsScene, QGraphicsLineItem
 from secretstorage import item
+import substring
 
 from PixmapItem import PixmapItem, Edge
 
@@ -21,19 +22,36 @@ class GraphicsScene(QGraphicsScene):
         byteArray = event.mimeData().data('application/x-qabstractitemmodeldatalist')
         itemIndex = QDataStream(byteArray).readInt32()
         itemName = event.source().item(itemIndex).text()
+        source = event.source()
         x = event.scenePos().x()
         y = event.scenePos().y()
-        self.addItemInList(itemName, x, y)
+        self.addItemInList(itemName, x, y, source)
 
-    def addItemInList(self, itemName, x, y):
-        self.addItem(PixmapItem(itemName, x, y))
-        print(PixmapItem(itemName, x, y).sceneBoundingRect())
+    def addItemInList(self, itemName, x, y, source):
+        item = PixmapItem(itemName, x, y)
+        self.addItem(item)
+
+        source = substring.substringByChar(str(source), startChar="<", endChar=".")
+        if source == "<ListOfSensors.":
+            source = "sensor"
+        elif source == "<ListOfActuators.":
+            source = "actuator"
+        else:
+            source = ""
+
+        t = (itemName, source, item)
+        self.itemList.append(t)
+        print(self.itemList)
 
     def removeItemInList(self):
+        for x in self.itemList:
+            for y in x:
+
         for x in self.selectedItems():
             if isinstance(x, Edge):
                 x.delete()
             self.removeItem(x)
+
 
 
 

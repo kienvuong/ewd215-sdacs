@@ -20,12 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="561cb230-b868-4fb3-97c5-3f749a650ff3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Application 4.0/ListOfOperators.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application 4.0/GraphicsScene.py" beforeDir="false" afterPath="$PROJECT_DIR$/Application 4.0/GraphicsScene.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application 4.0/GraphicsView.py" beforeDir="false" afterPath="$PROJECT_DIR$/Application 4.0/GraphicsView.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application 4.0/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Application 4.0/Main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application 4.0/PixmapItem.py" beforeDir="false" afterPath="$PROJECT_DIR$/Application 4.0/PixmapItem.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,8 +173,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.Main" />
-        <item itemvalue="Python.AdminConfig2" />
         <item itemvalue="Python.GraphicsScene" />
+        <item itemvalue="Python.AdminConfig2" />
         <item itemvalue="Python.DragDrop" />
         <item itemvalue="Python.DragDropListIcon (1)" />
       </list>
@@ -231,22 +228,22 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="1282" y="459" width="424" height="484" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1609109952712" />
-    <state width="1897" height="212" key="GridCell.Tab.0.bottom" timestamp="1615310383128">
+    <state width="1897" height="212" key="GridCell.Tab.0.bottom" timestamp="1615477406268">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1897" height="212" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1615310383128" />
-    <state width="1897" height="212" key="GridCell.Tab.0.center" timestamp="1615310383126">
+    <state width="1897" height="212" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1615477406268" />
+    <state width="1897" height="212" key="GridCell.Tab.0.center" timestamp="1615477406267">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1897" height="212" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1615310383126" />
-    <state width="1897" height="212" key="GridCell.Tab.0.left" timestamp="1615310383125">
+    <state width="1897" height="212" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1615477406267" />
+    <state width="1897" height="212" key="GridCell.Tab.0.left" timestamp="1615477406267">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1897" height="212" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1615310383125" />
-    <state width="1897" height="212" key="GridCell.Tab.0.right" timestamp="1615310383127">
+    <state width="1897" height="212" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1615477406267" />
+    <state width="1897" height="212" key="GridCell.Tab.0.right" timestamp="1615477406268">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1897" height="212" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1615310383127" />
+    <state width="1897" height="212" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1615477406268" />
     <state width="1897" height="344" key="GridCell.Tab.1.bottom" timestamp="1614103512736">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>

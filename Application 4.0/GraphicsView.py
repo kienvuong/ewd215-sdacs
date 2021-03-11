@@ -78,7 +78,6 @@ class GraphicsView(QGraphicsView):
         super().mouseReleaseEvent(event)
 
     def printData(self):
-        self.itemList = []
         for item in self.items():
             if isinstance(item, PixmapItem):
                 self.itemList.append(item)
