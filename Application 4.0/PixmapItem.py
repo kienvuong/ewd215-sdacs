@@ -8,12 +8,19 @@ from PyQt5.QtWidgets import QWidget, QPushButton, QGraphicsView, QLabel, QGraphi
 class PixmapItem(QGraphicsPixmapItem):
     def __init__(self, itemName, x, y):
         QGraphicsPixmapItem.__init__(self)
+        self.name = ""
         self.end_ports = []
         self.setPixmap(QPixmap("img/"+ itemName +".png").scaled(64, 64))
         self.setFlag(self.ItemIsMovable, True)
         self.setFlag(self.ItemIsSelectable, True)
         self.setPos(x - 32, y - 32)
         self.create_end_ports()
+
+    def setName(self, name):
+        self.name = name
+
+    def getName(self):
+        return self.name
 
     def create_end_ports(self):
         up = TerminalItem(QtCore.QLineF(QtCore.QPointF(29, 0), QtCore.QPointF(35, 0)), self)
@@ -55,12 +62,14 @@ class TerminalItem(QGraphicsLineItem):
         self.setPen(QtGui.QPen(QtGui.QColor(QtCore.Qt.transparent), 7))
 
 class Edge(QGraphicsLineItem):
-    def __init__(self, source, dest, parent=None):
+    def __init__(self, source, dest, pixmapSource, pixmapDest, parent=None):
         super().__init__(parent)
         self.setFlag(self.ItemIsSelectable, True)
 
         self.source = source
         self.dest = dest
+        self.pixmapSource = pixmapSource
+        self.pixmapDest = pixmapDest
         self.source.addEdge(self)
         self.dest.addEdge(self)
         self.setPen(QtGui.QPen(QtCore.Qt.blue, 1.75))

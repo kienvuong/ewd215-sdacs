@@ -18,7 +18,6 @@ class GraphicsScene(QGraphicsScene):
         event.accept()
 
     def dropEvent(self, event):
-        print("DROPPED")
         byteArray = event.mimeData().data('application/x-qabstractitemmodeldatalist')
         itemIndex = QDataStream(byteArray).readInt32()
         itemName = event.source().item(itemIndex).text()
@@ -29,7 +28,14 @@ class GraphicsScene(QGraphicsScene):
 
     def addItemInList(self, itemName, x, y, source):
         item = PixmapItem(itemName, x, y)
+
         self.addItem(item)
+        # for tuple in self.itemList:
+        #     for tupleElement in tuple:
+                # if tupleElement == "Start":
+                #     print("Start block already exist")
+                # else:
+                #     self.addItem(item)
 
         source = substring.substringByChar(str(source), startChar="<", endChar=".")
         if source == "<ListOfSensors.":
@@ -37,11 +43,14 @@ class GraphicsScene(QGraphicsScene):
         elif source == "<ListOfActuators.":
             source = "actuator"
         else:
-            source = ""
+            source = "operator"
 
         t = (itemName, source, item)
+        name = t[0]
+        item.setName(name)
         self.itemList.append(t)
         print(self.itemList)
+
 
     def removeItemInList(self):
         self.loopCount = 0
@@ -53,7 +62,6 @@ class GraphicsScene(QGraphicsScene):
                     if selectedItem == tupleItem:
                         del self.itemList[self.loopCount]
                 self.loopCount += 1
-            print(self.itemList)
             self.removeItem(selectedItem)
 
 

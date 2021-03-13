@@ -1,6 +1,6 @@
 from PyQt5 import QtCore, QtGui, QtWidgets
 from PyQt5.QtCore import QRect
-from PyQt5.QtWidgets import QLabel, QGraphicsView, QPushButton
+from PyQt5.QtWidgets import QLabel, QGraphicsView, QPushButton, QDialog
 
 from GraphicsView import GraphicsView
 from ListOfActuators import ListOfActuators
@@ -43,6 +43,7 @@ class Ui_MainWindow(object):
         self.printDataButton.setText("Print Data")
         self.printDataButton.setGeometry(QRect(115, 606, 90, 25))
         self.printDataButton.clicked.connect(lambda: self.graphicsView.printData())
+
 
         MainWindow.setCentralWidget(self.centralwidget)
         self.retranslateUi(MainWindow)
