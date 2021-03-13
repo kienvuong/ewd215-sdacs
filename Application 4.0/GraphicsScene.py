@@ -48,6 +48,7 @@ class GraphicsScene(QGraphicsScene):
         t = (itemName, source, item)
         name = t[0]
         item.setName(name)
+        item.setType(t[1])
         self.itemList.append(t)
         print(self.itemList)
 

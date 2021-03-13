@@ -9,6 +9,7 @@ class PixmapItem(QGraphicsPixmapItem):
     def __init__(self, itemName, x, y):
         QGraphicsPixmapItem.__init__(self)
         self.name = ""
+        self.type = ""
         self.end_ports = []
         self.setPixmap(QPixmap("img/"+ itemName +".png").scaled(64, 64))
         self.setFlag(self.ItemIsMovable, True)
@@ -21,6 +22,12 @@ class PixmapItem(QGraphicsPixmapItem):
 
     def getName(self):
         return self.name
+
+    def setType(self, type):
+        self.type = type
+
+    def getType(self):
+        return self.type
 
     def create_end_ports(self):
         up = TerminalItem(QtCore.QLineF(QtCore.QPointF(29, 0), QtCore.QPointF(35, 0)), self)

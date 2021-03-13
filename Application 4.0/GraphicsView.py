@@ -127,7 +127,7 @@ class GraphicsView(QGraphicsView):
 
         print("TOTAL AAAAAAAAAAAAAAaaa")
         for s in totalSteps:
-            print("Total name: ", s.getName())
+            print("Total name: ", s.getName(), "+" , s.getType())
 
         #
         # for port in startItem.end_ports:
