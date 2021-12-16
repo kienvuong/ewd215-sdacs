@@ -88,20 +88,11 @@ class GraphicsView(QGraphicsView):
             if isinstance(item, PixmapItem):
                 self.test = Dialog()
                 self.test.show()
-                print("AA")
-
-    # def mouseDoubleClickEvent(self, event):
-    #     items = self.items(event.pos())
-    #     for item in items:
-    #         if isinstance(item, PixmapItem):
-    #             dialog = Dialog()
-    #             dialog.show()
-    #             print("AA")
 
     def getDestination(self, item):
         for port in item.end_ports:
             for edge in port.edges:
-                if(edge.pixmapDest != None and edge.pixmapDest != item):
+                if (edge.pixmapDest != None and edge.pixmapDest != item):
                     return edge.pixmapDest
         return None
 
@@ -109,6 +100,8 @@ class GraphicsView(QGraphicsView):
         firstStep = None
         nextPixmapItem = None
         totalSteps = []
+
+        # checken of er een startblock is. Zo ja, dan wordt het object toegevoegd in de totalsteps list
         for item in self.graphicsScene.itemList:
             if item[0] == "Start":
                 nextPixmapItem = item[2]
@@ -117,17 +110,17 @@ class GraphicsView(QGraphicsView):
         while nextPixmapItem != None:
             dest = self.getDestination(nextPixmapItem)
             if dest != None and dest != firstStep:
-                if (firstStep == None):
+                if firstStep == None:
                     firstStep = dest
                 nextPixmapItem = dest
                 totalSteps.append(dest)
+                print(dest)
             else:
                 pixmapItem = None
                 break
 
-        print("TOTAL AAAAAAAAAAAAAAaaa")
         for s in totalSteps:
-            print("Total name: ", s.getName(), "+" , s.getType())
+            print("Total name: ", s.getName(), "+", s.getType())
 
         #
         # for port in startItem.end_ports:
@@ -156,9 +149,3 @@ class Dialog(QDialog):
     def PopUp(self):
         self.setGeometry(QRect(10, 25, 10, 10))
         self.setWindowTitle("My Form")
-
-
-
-
-
-

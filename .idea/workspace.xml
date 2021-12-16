@@ -21,9 +21,11 @@
   <component name="ChangeListManager">
     <list default="true" id="561cb230-b868-4fb3-97c5-3f749a650ff3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application 4.0/GraphicsScene.py" beforeDir="false" afterPath="$PROJECT_DIR$/Application 4.0/GraphicsScene.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application 1.0/clientNew.py" beforeDir="false" afterPath="$PROJECT_DIR$/Application 1.0/clientNew.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application 1.0/outputStream.py" beforeDir="false" afterPath="$PROJECT_DIR$/Application 1.0/outputStream.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application 1.0/senderRealtime.py" beforeDir="false" afterPath="$PROJECT_DIR$/Application 1.0/senderRealtime.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application 1.0/serverNew.py" beforeDir="false" afterPath="$PROJECT_DIR$/Application 1.0/serverNew.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application 4.0/GraphicsView.py" beforeDir="false" afterPath="$PROJECT_DIR$/Application 4.0/GraphicsView.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application 4.0/PixmapItem.py" beforeDir="false" afterPath="$PROJECT_DIR$/Application 4.0/PixmapItem.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +49,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Application 4.0" />
+    <property name="last_opened_file_path" value="$USER_HOME$/School/TinlabML" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -65,7 +67,7 @@
       <recent name="$PROJECT_DIR$/mp" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Main">
+  <component name="RunManager" selected="Python.Opdracht2">
     <configuration name="AdminConfig2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ProjectSDACS" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -79,48 +81,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Application 2.0/AdminConfig2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="DragDrop" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="ProjectSDACS" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Application 1.0" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Application 1.0/DragDrop.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="GraphicsScene" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="ProjectSDACS" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Application 4.0" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Application 4.0/GraphicsScene.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -150,7 +110,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Opdracht2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ProjectSDACS" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -158,11 +118,53 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Application 2.0" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/School/TinlabML" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/School/TinlabML/Opdracht2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="SymbolRCN" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ProjectSDACS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/School/TinlabML" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/School/TinlabML/SymbolRCN.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="clientNew" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ProjectSDACS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Application 1.0" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Application 2.0/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Application 1.0/clientNew.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -173,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Opdracht2" />
+        <item itemvalue="Python.SymbolRCN" />
         <item itemvalue="Python.Main" />
-        <item itemvalue="Python.main" />
-        <item itemvalue="Python.GraphicsScene" />
         <item itemvalue="Python.AdminConfig2" />
-        <item itemvalue="Python.DragDrop" />
+        <item itemvalue="Python.clientNew" />
       </list>
     </recent_temporary>
   </component>
@@ -221,58 +223,54 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="1151" y="354" width="618" height="396" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1613514302589" />
+    <state x="643" y="289" width="624" height="526" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1616625701002">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="643" y="289" width="624" height="526" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1616625701002" />
     <state x="693" y="301" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1614092437982">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="693" y="301" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1614092437982" />
-    <state x="1282" y="459" width="424" height="484" key="FileChooserDialogImpl" timestamp="1609109952712">
+    <state x="738" y="296" width="424" height="513" key="FileChooserDialogImpl" timestamp="1621600046798">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="1282" y="459" width="424" height="484" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1609109952712" />
-    <state width="1897" height="212" key="GridCell.Tab.0.bottom" timestamp="1615594135197">
+    <state x="738" y="296" width="424" height="513" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1621600046798" />
+    <state width="1897" height="344" key="GridCell.Tab.0.bottom" timestamp="1621600047806">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1897" height="212" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1615594135197" />
-    <state width="1897" height="212" key="GridCell.Tab.0.center" timestamp="1615594135197">
+    <state width="1897" height="344" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1621600047806" />
+    <state width="1897" height="344" key="GridCell.Tab.0.center" timestamp="1621600047805">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1897" height="212" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1615594135197" />
-    <state width="1897" height="212" key="GridCell.Tab.0.left" timestamp="1615594135197">
+    <state width="1897" height="344" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1621600047805" />
+    <state width="1897" height="344" key="GridCell.Tab.0.left" timestamp="1621600047804">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1897" height="212" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1615594135197" />
-    <state width="1897" height="212" key="GridCell.Tab.0.right" timestamp="1615594135197">
+    <state width="1897" height="344" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1621600047804" />
+    <state width="1897" height="344" key="GridCell.Tab.0.right" timestamp="1621600047805">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1897" height="212" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1615594135197" />
-    <state width="1897" height="344" key="GridCell.Tab.1.bottom" timestamp="1615593669003">
+    <state width="1897" height="344" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1621600047805" />
+    <state width="1897" height="344" key="GridCell.Tab.1.bottom" timestamp="1621600047807">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1897" height="344" key="GridCell.Tab.1.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1615593669003" />
-    <state width="1897" height="344" key="GridCell.Tab.1.center" timestamp="1615593669003">
+    <state width="1897" height="344" key="GridCell.Tab.1.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1621600047807" />
+    <state width="1897" height="344" key="GridCell.Tab.1.center" timestamp="1621600047807">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1897" height="344" key="GridCell.Tab.1.center/0.27.1920.1053@0.27.1920.1053" timestamp="1615593669003" />
-    <state width="1897" height="344" key="GridCell.Tab.1.left" timestamp="1615593669003">
+    <state width="1897" height="344" key="GridCell.Tab.1.center/0.27.1920.1053@0.27.1920.1053" timestamp="1621600047807" />
+    <state width="1897" height="344" key="GridCell.Tab.1.left" timestamp="1621600047806">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1897" height="344" key="GridCell.Tab.1.left/0.27.1920.1053@0.27.1920.1053" timestamp="1615593669003" />
-    <state width="1897" height="344" key="GridCell.Tab.1.right" timestamp="1615593669003">
+    <state width="1897" height="344" key="GridCell.Tab.1.left/0.27.1920.1053@0.27.1920.1053" timestamp="1621600047806" />
+    <state width="1897" height="344" key="GridCell.Tab.1.right" timestamp="1621600047807">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1897" height="344" key="GridCell.Tab.1.right/0.27.1920.1053@0.27.1920.1053" timestamp="1615593669003" />
-    <state x="425" y="172" key="SettingsEditor" timestamp="1609101741341">
+    <state width="1897" height="344" key="GridCell.Tab.1.right/0.27.1920.1053@0.27.1920.1053" timestamp="1621600047807" />
+    <state x="623" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1621589712978">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="425" y="172" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1609101741341" />
-    <state x="100" y="125" width="1720" height="855" key="dock-window-1" timestamp="1612402723774">
-      <screen x="0" y="27" width="1920" height="1053" />
-    </state>
-    <state x="100" y="125" width="1720" height="855" key="dock-window-1/0.27.1920.1053@0.27.1920.1053" timestamp="1612402723774" />
-    <state x="623" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1614264760154">
-      <screen x="0" y="27" width="1920" height="1053" />
-    </state>
-    <state x="623" y="257" width="672" height="678" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1614264760154" />
+    <state x="623" y="257" width="672" height="678" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1621589712978" />
     <state x="685" y="466" width="540" height="172" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1614079391633">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
